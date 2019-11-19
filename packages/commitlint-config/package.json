@@ -1,0 +1,21 @@
+{
+  "name": "@dan-akl/commitlint-config",
+  "version": "0.0.1",
+  "description": "Shareable commitlint configuration",
+  "license": "MIT",
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DAN-AKL/code-quality.git"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^8.2.0"
+  }
+}

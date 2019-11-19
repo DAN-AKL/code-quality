@@ -7,7 +7,10 @@
     "eslintconfig"
   ],
   "license": "MIT",
-  "repository": "git@github.com:DAN-AKL/eslint-config.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DAN-AKL/code-quality.git"
+  },
   "main": "index.js",
   "peerDependencies": {
     "eslint": ">=6",

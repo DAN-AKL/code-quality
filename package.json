@@ -1,7 +1,26 @@
 {
   "name": "root",
-  "private": true,
+  "repository": "git@github.com:DAN-AKL/code-quality.git",
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "commitizen": "^4.0.3",
+    "husky": "^3.1.0",
     "lerna": "^3.15.0"
+  },
+  "scripts": {
+    "cm": "git-cz"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
   }
 }
