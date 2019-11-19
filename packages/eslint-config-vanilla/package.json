@@ -1,6 +1,6 @@
 {
   "name": "@dan-akl/eslint-config-vanilla",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Shareable ESLint Config",
   "keywords": [
     "eslint",
