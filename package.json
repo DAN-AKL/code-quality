@@ -11,7 +11,9 @@
     "semantic-release": "^15.13.31"
   },
   "scripts": {
-    "cm": "git-cz"
+    "bootstrap": "lerna bootstrap --hoist",
+    "cm": "git-cz",
+    "semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -19,9 +19,9 @@ jobs:
         with:
           node-version: 12
       - name: Install dependencies
-        run: npx lerna bootstrap
+        run: npm run bootstrap
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo
+        run: npm run semantic-release
