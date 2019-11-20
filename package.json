@@ -1,11 +1,14 @@
 {
   "name": "root",
+  "private": true,
+  "version": "0.0.0-development",
   "repository": "git@github.com:DAN-AKL/code-quality.git",
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "commitizen": "^4.0.3",
     "husky": "^3.1.0",
-    "lerna": "^3.15.0"
+    "lerna": "^3.18.5",
+    "semantic-release": "^15.13.31"
   },
   "scripts": {
     "cm": "git-cz"
