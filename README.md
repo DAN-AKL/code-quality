@@ -1,5 +1,6 @@
 # Code Quality
 
-|Package|Tool|Description|
+|Package|Tool|Purpose|
 |-|-|-|
-|[@dan-akl/eslint-config-vanilla](packages/eslint-config-vanilla)|ESLint|Config for vanilla JavaScript
+|[@dan-akl/commitlint-config](packages/commitlint-config)|commitlint|Linting commit messages
+|[@dan-akl/eslint-config-vanilla](packages/eslint-config-vanilla)|ESLint|Linting vanilla JavaScript
