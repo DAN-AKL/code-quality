@@ -13,8 +13,7 @@
   },
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=6",
-    "prettier": "^1.19.1"
+    "eslint": ">=6"
   },
   "dependencies": {
     "babel-eslint": "^10.0.3",
