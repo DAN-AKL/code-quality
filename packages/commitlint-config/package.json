@@ -1,6 +1,6 @@
 {
   "name": "@dan-akl/commitlint-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shareable commitlint configuration",
   "license": "MIT",
   "keywords": [
