@@ -3,5 +3,5 @@
 module.exports = testConfig;
 
 function testConfig() {
-    // TODO
+  console.log('test');
 }
