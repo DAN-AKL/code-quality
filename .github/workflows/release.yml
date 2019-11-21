@@ -16,6 +16,9 @@ jobs:
         uses: actions/checkout@v1
         with:
           ref: master
+      - name: Prepare repository
+        # See https://github.com/actions/checkout/issues/6
+        run: git checkout "${GITHUB_REF:11}"
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
