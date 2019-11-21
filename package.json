@@ -13,7 +13,7 @@
   },
   "scripts": {
     "cm": "git-cz",
-    "lerna:publish": "lerna publish",
+    "lerna:publish": "lerna publish --canary",
     "semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo",
     "postinstall": "lerna bootstrap"
   },
