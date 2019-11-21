@@ -10,7 +10,8 @@
       ],
       "message": "chore(release): publish",
       "registry": "https://npm.pkg.github.com",
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "yes": true
     }
   }
 }
