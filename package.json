@@ -7,14 +7,11 @@
     "@commitlint/cli": "^8.2.0",
     "commitizen": "^4.0.3",
     "husky": "^3.1.0",
-    "lerna": "3.18.5",
-    "semantic-release": "15.12.5",
-    "semantic-release-monorepo": "^6.1.1"
+    "lerna": "3.18.5"
   },
   "scripts": {
-    "cm": "git-cz",
+    "commit": "git-cz",
     "lerna:publish": "lerna publish",
-    "semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo",
     "postinstall": "lerna bootstrap"
   },
   "publishConfig": {
