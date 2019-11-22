@@ -5,14 +5,8 @@ This package includes the shareable ESLint configuration used by Digital Arts Ne
 ## Installation
 [Authenticate to GitHub Packages](https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages).
 
-Install `eslint` and `prettier`:
 ```
-npm install eslint prettier --save-dev
-```
-
-Install this package:
-```
-npm install @dan-akl/eslint-config-vanilla --save-dev
+npm install eslint prettier @dan-akl/eslint-config-vanilla --save-dev
 ```
 
 ## Usage
