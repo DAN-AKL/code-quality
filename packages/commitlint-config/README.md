@@ -6,8 +6,10 @@ This package includes the shareable commitlint configuration used by Digital Art
 [Authenticate to GitHub Packages](https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages).
 
 ```
-npm install @commitlint/cli @dan-akl/commitlint-config --save-dev
+npm i --save-dev @commitlint/cli @dan-akl/commitlint-config
 ```
+
+_Note:_ for monorepos install of these at the root.
 
 ## Usage
 Create an `commitlint.config.js` file with the following contents:
@@ -22,10 +24,10 @@ module.exports = {
 
 ### Install `husky`
 ```
-npm install --save-dev husky
+npm i --save-dev husky
 ```
 
-### Add a git hook
+### Add a husky hook to package.json
 This will be executed whenever a new commit is created.
 ```json
 // package.json
@@ -38,8 +40,36 @@ This will be executed whenever a new commit is created.
 }
 ```
 
+### Install `commitizen` prompt
+```
+npm i --save-dev commitizen cz-conventional-changelog
+```
+
+### Add Commitizen adapter config
+```json
+// package.json
+{
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
+```
+
+### Add a script pointing to Commitizen cli
+```json
+// package.json
+{
+  "scripts": {
+    "commit": "git-cz"
+  }
+}
+```
+
+To start a commit, run `npm run commit` instead of the usual `git commit`.
+
 ### Related
 - [commitlint](https://commitlint.js.org/#/)
-- [Commitizen](http://commitizen.github.io/cz-cli/)
 - [husky](https://github.com/typicode/husky)
-- [git hooks](https://git-scm.com/docs/githooks)
+- [Commitizen](http://commitizen.github.io/cz-cli/)
