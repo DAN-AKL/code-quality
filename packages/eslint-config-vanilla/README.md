@@ -10,11 +10,11 @@ npm install eslint prettier @dan-akl/eslint-config-vanilla --save-dev
 ```
 
 ## Usage
-Create an .eslintrc file with the following contents:
+Create an `.eslintrc.js` file with the following contents:
 
-```
-{
-  "extends": "@dan-akl/eslint-config-vanilla"
+```javascript
+module.exports = {
+  'extends': '@dan-akl/eslint-config-vanilla'
 }
 ```
 
