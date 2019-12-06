@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/DAN-AKL/code-quality/compare/v0.5.2...v0.6.0) (2019-12-06)
+
+
+### Features
+
+* **eslint-config:** use same no-extraneous-dependencies as other config ([d5ea313](https://github.com/DAN-AKL/code-quality/commit/d5ea313c3e19dffdfb3777fb15fa46f754fcbe56))
+
+
+
+
+
 ## [0.5.2](https://github.com/DAN-AKL/code-quality/compare/v0.5.1...v0.5.2) (2019-12-06)
 
 
