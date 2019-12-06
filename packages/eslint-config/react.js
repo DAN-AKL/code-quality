@@ -20,7 +20,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'react',
+    'prettier',
   ],
   rules: {
     // Forbid the use of extraneous packages
