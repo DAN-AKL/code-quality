@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/DAN-AKL/code-quality/compare/v0.6.0...v0.6.1) (2019-12-06)
+
+
+### Bug Fixes
+
+* **eslint-config:** fix missing comma ([8e8b627](https://github.com/DAN-AKL/code-quality/commit/8e8b6276a5cbeed1039a4512009a8f10fa27a6ab))
+
+
+
+
+
 # [0.6.0](https://github.com/DAN-AKL/code-quality/compare/v0.5.2...v0.6.0) (2019-12-06)
 
 
