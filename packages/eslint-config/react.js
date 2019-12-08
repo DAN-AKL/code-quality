@@ -21,6 +21,8 @@ module.exports = {
   },
   plugins: [
     'prettier',
+    'import',
+    'react'
   ],
   rules: {
     // Forbid the use of extraneous packages
@@ -80,6 +82,7 @@ module.exports = {
     'prettier/prettier': 'error',
 
     'react/forbid-prop-types': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'react/destructuring-assignment': 'off',
   },
 };
