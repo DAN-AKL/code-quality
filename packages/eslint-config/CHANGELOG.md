@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.2](https://github.com/DAN-AKL/code-quality/compare/v0.6.1...v0.6.2) (2019-12-08)
+
+
+### Bug Fixes
+
+* **eslint-config:** list plugins, turn off 'jsx-props-no-spreading' rule ([a3d71bd](https://github.com/DAN-AKL/code-quality/commit/a3d71bdfee336edf91916cf45d0874091c041fa0))
+
+
+
+
+
 ## [0.6.1](https://github.com/DAN-AKL/code-quality/compare/v0.6.0...v0.6.1) (2019-12-06)
 
 
