@@ -40,11 +40,22 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Notify
+        if: success()
         uses: 8398a7/action-slack@v2.4.2
         with:
-          status: ${{ job.status }}
-          author_name: ${{ job.name }}
+          status: custom
+          payload: |
+            {
+              text: "🚀A new version of `${{ github.repository }}` has been released!",
+              attachments: [{
+                color: 'good',
+                fields: [{
+                  title: '📦️ ${{ github.repository }}',
+                  value: 'https://github.com/${{ github.repository }}/releases',
+                  short: false
+                }]
+              }]
+            }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-
