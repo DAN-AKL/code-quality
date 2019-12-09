@@ -5,4 +5,4 @@
 |[@dan-akl/commitlint-config](packages/commitlint-config)|commitlint|Linting commit messages
 |[@dan-akl/eslint-config](packages/eslint-config)|ESLint|Linting JavaScript
 |[@dan-akl/stylelint-config](packages/stylelint-config)|stylelint|Linting CSS/SCSS styles
-|[@dan-akl/prettier-config](packages/prettier-config)|prettier|Code formatting
+|[@dan-akl/prettier-config](packages/prettier-config)|Prettier|Code formatting
