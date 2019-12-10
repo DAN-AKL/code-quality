@@ -6,9 +6,8 @@ on:
       - master
 
 jobs:
-  release:
-    name: Release
-    runs-on: ubuntu-18.04
+  build:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v1
@@ -33,7 +32,13 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        run: npm run lint
 
+  release:
+    needs: build
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
       - name: Publish
         run: npm run lerna:publish
         env:
