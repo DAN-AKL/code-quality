@@ -1,5 +1,5 @@
 {
-  "name": "@dan-akl/commitlint-config",
+  "name": "@dan-nz/commitlint-config",
   "version": "0.7.3",
   "description": "Shareable commitlint configuration",
   "license": "MIT",
