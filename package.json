@@ -21,9 +21,6 @@
     "lerna:publish": "lerna publish",
     "postinstall": "lerna bootstrap"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
