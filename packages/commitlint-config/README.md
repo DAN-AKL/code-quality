@@ -7,7 +7,7 @@ This package includes the shareable commitlint configuration used by Digital Art
 npm i --save-dev @commitlint/cli @dan-nz/commitlint-config
 ```
 
-_Note:_ for monorepos install these at the root.
+_Note:_ for monorepos perform these steps at the root of your package.
 
 ## Usage
 Create an `commitlint.config.js` file with the following contents:
