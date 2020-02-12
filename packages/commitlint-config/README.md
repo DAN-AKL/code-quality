@@ -1,12 +1,10 @@
 # commitlint-config
 
-This package includes the shareable commitlint configuration used by Digital Arts Network Auckland.
+This package includes the shareable commitlint configuration used by Digital Arts Network New Zealand.
 
 ## Installation
-[Authenticate to GitHub Packages](https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages).
-
 ```
-npm i --save-dev @commitlint/cli @dan-akl/commitlint-config
+npm i --save-dev @commitlint/cli @dan-nz/commitlint-config
 ```
 
 _Note:_ for monorepos install of these at the root.
@@ -17,7 +15,7 @@ Create an `commitlint.config.js` file with the following contents:
 ```javascript
 module.exports = {
   extends: [
-    '@dan-akl/commitlint-config'
+    '@dan-nz/commitlint-config'
   ],
 }
 ```

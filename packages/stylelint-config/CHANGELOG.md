@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.7.1](https://github.com/DAN-AKL/code-quality/compare/v0.7.0...v0.7.1) (2019-12-10)
 
-**Note:** Version bump only for package @dan-akl/stylelint-config
+**Note:** Version bump only for package @dan-nz/stylelint-config
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.7.0](https://github.com/DAN-AKL/code-quality/compare/v0.6.2...v0.7.0) (2019-12-09)
 
-**Note:** Version bump only for package @dan-akl/stylelint-config
+**Note:** Version bump only for package @dan-nz/stylelint-config
 
 
 
@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.6.2](https://github.com/DAN-AKL/code-quality/compare/v0.6.1...v0.6.2) (2019-12-08)
 
-**Note:** Version bump only for package @dan-akl/stylelint-config
+**Note:** Version bump only for package @dan-nz/stylelint-config
 
 
 
@@ -29,7 +29,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.6.1](https://github.com/DAN-AKL/code-quality/compare/v0.6.0...v0.6.1) (2019-12-06)
 
-**Note:** Version bump only for package @dan-akl/stylelint-config
+**Note:** Version bump only for package @dan-nz/stylelint-config
 
 
 
@@ -37,7 +37,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.6.0](https://github.com/DAN-AKL/code-quality/compare/v0.5.2...v0.6.0) (2019-12-06)
 
-**Note:** Version bump only for package @dan-akl/stylelint-config
+**Note:** Version bump only for package @dan-nz/stylelint-config
 
 
 
@@ -45,7 +45,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.5.2](https://github.com/DAN-AKL/code-quality/compare/v0.5.1...v0.5.2) (2019-12-06)
 
-**Note:** Version bump only for package @dan-akl/stylelint-config
+**Note:** Version bump only for package @dan-nz/stylelint-config
 
 
 
@@ -53,7 +53,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.5.1](https://github.com/DAN-AKL/code-quality/compare/v0.5.0...v0.5.1) (2019-12-06)
 
-**Note:** Version bump only for package @dan-akl/stylelint-config
+**Note:** Version bump only for package @dan-nz/stylelint-config
 
 
 
@@ -61,7 +61,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.5.0](https://github.com/DAN-AKL/code-quality/compare/v0.4.2...v0.5.0) (2019-12-06)
 
-**Note:** Version bump only for package @dan-akl/stylelint-config
+**Note:** Version bump only for package @dan-nz/stylelint-config
 
 
 
@@ -80,7 +80,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.4.1](https://github.com/DAN-AKL/code-quality/compare/v0.4.0...v0.4.1) (2019-12-03)
 
-**Note:** Version bump only for package @dan-akl/stylelint-config
+**Note:** Version bump only for package @dan-nz/stylelint-config
 
 
 

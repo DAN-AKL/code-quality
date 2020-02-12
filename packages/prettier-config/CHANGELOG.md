@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.7.1](https://github.com/DAN-AKL/code-quality/compare/v0.7.0...v0.7.1) (2019-12-10)
 
-**Note:** Version bump only for package @dan-akl/prettier-config
+**Note:** Version bump only for package @dan-nz/prettier-config
 
 
 
