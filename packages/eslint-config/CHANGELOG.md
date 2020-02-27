@@ -1,3 +1,15 @@
+# v0.7.8 (Thu Feb 27 2020)
+
+#### 🐛  Bug Fix
+
+- build(deps): update dependencies  ([@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 1
+
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

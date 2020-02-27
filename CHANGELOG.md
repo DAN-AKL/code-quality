@@ -1,3 +1,19 @@
+# v0.7.8 (Thu Feb 27 2020)
+
+#### ⚠️  Pushed to master
+
+- ci(github): use auto for releases  ([@gmlnchv](https://github.com/gmlnchv))
+- `@dan-nz/eslint-config`, `@dan-nz/stylelint-config`
+  - Merge branch 'master' of github.com:DAN-AKL/code-quality  ([@gmlnchv](https://github.com/gmlnchv))
+- `@dan-nz/eslint-config`, `@dan-nz/stylelint-config`
+  - build(deps): update dependencies  ([@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 1
+
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
