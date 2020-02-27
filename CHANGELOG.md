@@ -1,3 +1,17 @@
+# v0.7.11 (Thu Feb 27 2020)
+
+#### ⚠️  Pushed to master
+
+- ci(github): add ci workflow  ([@gmlnchv](https://github.com/gmlnchv))
+- `@dan-nz/commitlint-config`, `@dan-nz/eslint-config`, `@dan-nz/prettier-config`, `@dan-nz/stylelint-config`
+  - Merge branch 'master' of https://github.com/DAN-AKL/code-quality  ([@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 1
+
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # v0.7.10 (Thu Feb 27 2020)
 
 #### ⚠️  Pushed to master
