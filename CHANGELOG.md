@@ -1,3 +1,15 @@
+# v0.7.9 (Thu Feb 27 2020)
+
+#### ⚠️  Pushed to master
+
+- ci(github): fix incorrect yaml  ([@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 1
+
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # v0.7.8 (Thu Feb 27 2020)
 
 #### ⚠️  Pushed to master
