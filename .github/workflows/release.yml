@@ -6,75 +6,34 @@ on:
       - master
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
+     -  uses: actions/checkout@v1
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-          scope: '@dan-akl'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Lint
-        run: npm run lint
-
-  publish:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-
-      - name: Configure Git User
+      - name: Prepare repository
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git config --local user.email 'gitdeployuserDAN@users.noreply.github.com'
-          git config --local user.name 'gitdeployuserDAN'
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/$GITHUB_REPOSITORY
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config --global user.name 'gitdeployuserDAN'
+          git config --global user.email 'gitdeployuserDAN@users.noreply.github.com'
+          git checkout ${GITHUB_REF:11} --
+          git remote rm origin
+          git remote add origin "https://x-access-token:$GH_TOKEN@github.com/DAN-AKL/code-quality.git"
+          git fetch origin --tags
+          git branch --set-upstream-to origin/${GITHUB_REF:11} ${GITHUB_REF:11}
 
-      - name: Checkout master
-        run: git checkout master
-
-      - name: Setup Node.js
+      - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://registry.npmjs.org/
-          scope: '@dan-akl'
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Publish
-        run: npm run lerna:publish
+      - name: Create Release
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-
-      - name: Notify
-        if: success()
-        uses: 8398a7/action-slack@v2.4.2
-        with:
-          status: custom
-          payload: |
-            {
-              text: "🚀A new version of `${{ github.repository }}` has been released!",
-              attachments: [{
-                color: 'good',
-                fields: [{
-                  title: '📦️ ${{ github.repository }}',
-                  value: 'https://github.com/${{ github.repository }}/releases',
-                  short: false
-                }]
-              }]
-            }
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm ci
+          npm run lint
+          npx auto shipit

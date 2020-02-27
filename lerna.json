@@ -2,15 +2,5 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.7.7",
-  "command": {
-    "publish": {
-      "ignoreChanges": [
-        "*.md"
-      ],
-      "message": "chore(release): publish",
-      "conventionalCommits": true,
-      "yes": true
-    }
-  }
+  "version": "0.7.7"
 }
