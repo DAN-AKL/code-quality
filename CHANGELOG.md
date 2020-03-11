@@ -1,3 +1,29 @@
+# v0.7.12 (Mon Mar 09 2020)
+
+#### 🐛  Bug Fix
+
+- build(deps): bump auto from 9.14.0 to 9.15.9 [#16](https://github.com/DAN-AKL/code-quality/pull/16) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 1
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+
+---
+
+# v0.7.11 (Thu Feb 27 2020)
+
+#### ⚠️  Pushed to master
+
+- ci(github): add ci workflow  ([@gmlnchv](https://github.com/gmlnchv))
+- `@dan-nz/commitlint-config`, `@dan-nz/eslint-config`, `@dan-nz/prettier-config`, `@dan-nz/stylelint-config`
+  - Merge branch 'master' of https://github.com/DAN-AKL/code-quality  ([@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 1
+
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # v0.7.10 (Thu Feb 27 2020)
 
 #### ⚠️  Pushed to master
