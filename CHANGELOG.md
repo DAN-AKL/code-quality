@@ -1,3 +1,16 @@
+# v0.7.13 (Wed Mar 11 2020)
+
+#### ⚠️  Pushed to `master`
+
+- `@dan-nz/commitlint-config`, `@dan-nz/eslint-config`, `@dan-nz/prettier-config`, `@dan-nz/stylelint-config`
+  - Merge branch 'master' of https://github.com/DAN-AKL/code-quality  ([@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 1
+
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # v0.7.12 (Mon Mar 09 2020)
 
 #### 🐛  Bug Fix
