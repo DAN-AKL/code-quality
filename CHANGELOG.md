@@ -1,3 +1,16 @@
+# v0.7.14 (Wed Mar 11 2020)
+
+#### 🐛  Bug Fix
+
+- build(deps-dev): bump @auto-it/conventional-commits from 9.14.0 to 9.19.4 [#19](https://github.com/DAN-AKL/code-quality/pull/19) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]) [@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 2
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # v0.7.13 (Wed Mar 11 2020)
 
 #### ⚠️  Pushed to `master`
