@@ -1,3 +1,15 @@
+# v0.7.15 (Wed Mar 11 2020)
+
+#### 🐛  Bug Fix
+
+- build(deps-dev): bump @auto-it/slack from 9.14.0 to 9.19.4 [#20](https://github.com/DAN-AKL/code-quality/pull/20) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 1
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+
+---
+
 # v0.7.14 (Wed Mar 11 2020)
 
 #### 🐛  Bug Fix
