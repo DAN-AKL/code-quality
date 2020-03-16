@@ -1,3 +1,15 @@
+# v0.7.16 (Mon Mar 16 2020)
+
+#### 🐛  Bug Fix
+
+- build(deps): [security] bump acorn from 7.1.0 to 7.1.1 [#25](https://github.com/DAN-AKL/code-quality/pull/25) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 1
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+
+---
+
 # v0.7.15 (Wed Mar 11 2020)
 
 #### 🐛  Bug Fix
