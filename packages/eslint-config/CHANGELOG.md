@@ -1,3 +1,16 @@
+# v0.7.20 (Mon Mar 16 2020)
+
+#### 🐛 Bug Fix
+
+- build(deps): bump eslint-plugin-react from 7.18.3 to 7.19.0 [#22](https://github.com/DAN-AKL/code-quality/pull/22) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]) [@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 2
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # v0.7.8 (Thu Feb 27 2020)
 
 #### 🐛  Bug Fix
