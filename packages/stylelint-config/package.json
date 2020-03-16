@@ -1,6 +1,6 @@
 {
   "name": "@dan-nz/stylelint-config",
-  "version": "0.7.16",
+  "version": "0.7.17",
   "description": "Shareable stylelint config",
   "keywords": [
     "stylelint",
