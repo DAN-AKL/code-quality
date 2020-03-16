@@ -1,3 +1,16 @@
+# v0.7.17 (Mon Mar 16 2020)
+
+#### 🐛 Bug Fix
+
+- build(deps): bump auto from 9.15.9 to 9.19.5 [#24](https://github.com/DAN-AKL/code-quality/pull/24) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]) [@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 2
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # v0.7.16 (Mon Mar 16 2020)
 
 #### 🐛  Bug Fix
