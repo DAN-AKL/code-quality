@@ -1,3 +1,15 @@
+# v0.7.21 (Sat Mar 28 2020)
+
+#### 🐛 Bug Fix
+
+- build(deps-dev): bump prettier from 1.19.1 to 2.0.2 [#36](https://github.com/DAN-AKL/code-quality/pull/36) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 1
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+
+---
+
 # v0.7.20 (Mon Mar 16 2020)
 
 #### 🐛 Bug Fix
