@@ -1,3 +1,15 @@
+# v0.7.22 (Sun Mar 29 2020)
+
+#### 🐛 Bug Fix
+
+- build(deps-dev): bump @auto-it/conventional-commits from 9.19.5 to 9.22.1 [#39](https://github.com/DAN-AKL/code-quality/pull/39) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 1
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+
+---
+
 # v0.7.21 (Sat Mar 28 2020)
 
 #### 🐛 Bug Fix
