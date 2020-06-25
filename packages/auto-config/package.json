@@ -7,7 +7,6 @@
     "auto",
     "auto-config"
   ],
-  "main": "index.js",
   "peerDependencies": {
     "auto": "*"
   },
@@ -22,5 +21,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DAN-AKL/code-quality.git"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "conventional-commits",
+      "released"
+    ]
   }
 }
