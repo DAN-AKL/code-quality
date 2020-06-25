@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@auto-it/conventional-commits": "^9.34.1",
-    "@auto-it/npm": "9.34.1",
+    "@auto-it/npm": "9.40.4",
     "@auto-it/released": "9.34.1"
   },
   "publishConfig": {
