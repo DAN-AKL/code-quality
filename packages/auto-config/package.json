@@ -1,0 +1,26 @@
+{
+  "name": "@dan-nz/auto-config",
+  "version": "0.7.22",
+  "description": "Shareable configuration for auto",
+  "license": "MIT",
+  "keywords": [
+    "auto",
+    "auto-config"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "auto": "*"
+  },
+  "dependencies": {
+    "@auto-it/conventional-commits": "^9.34.1",
+    "@auto-it/npm": "9.34.1",
+    "@auto-it/released": "9.34.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DAN-AKL/code-quality.git"
+  }
+}
