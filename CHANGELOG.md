@@ -1,3 +1,20 @@
+# v0.8.0 (Thu Jun 25 2020)
+
+#### 🚀 Enhancement
+
+- `@dan-nz/auto-config`
+  - feat(auto-config): add config for auto [#83](https://github.com/DAN-AKL/code-quality/pull/83) ([@gmlnchv](https://github.com/gmlnchv))
+
+#### 🐛 Bug Fix
+
+- build(deps): bump dependencies [#80](https://github.com/DAN-AKL/code-quality/pull/80) ([@gmlnchv](https://github.com/gmlnchv))
+
+#### Authors: 1
+
+- Georgy Malanichev ([@gmlnchv](https://github.com/gmlnchv))
+
+---
+
 # v0.7.22 (Sun Mar 29 2020)
 
 #### 🐛 Bug Fix
