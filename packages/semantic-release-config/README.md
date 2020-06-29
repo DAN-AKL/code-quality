@@ -34,7 +34,7 @@ Create an `release.config.js` file with the following contents:
 
 ```javascript
 module.exports = {
-  'extends': '@dan-nz/semantic-release-config'
+  extends: '@dan-nz/semantic-release-config'
 }
 ```
 
