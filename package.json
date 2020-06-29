@@ -4,8 +4,6 @@
   "version": "0.0.0-development",
   "repository": "git@github.com:DAN-AKL/code-quality.git",
   "devDependencies": {
-    "@auto-it/conventional-commits": "^9.40.3",
-    "@auto-it/slack": "^9.40.3",
     "@commitlint/cli": "^9.0.1",
     "commitizen": "^4.1.2",
     "eslint": "^7.3.1",
@@ -34,9 +32,6 @@
     "hooks": {
       "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
     }
-  },
-  "dependencies": {
-    "auto": "^9.40.3"
   },
   "author": "Georgy Malanichev <sputnik@omg.lol>"
 }
