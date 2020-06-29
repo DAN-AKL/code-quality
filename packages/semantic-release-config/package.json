@@ -1,0 +1,30 @@
+{
+  "name": "@dan-nz/semantic-release-config",
+  "version": "0.9.0",
+  "description": "Shareable semantic-release configuration",
+  "license": "MIT",
+  "keywords": [
+    "semantic-release",
+    "semantic-release-config"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DAN-AKL/code-quality.git"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/git": "^7.0.18",
+    "@semantic-release/github": "^5.5.5",
+    "@semantic-release/npm": "^5.3.4",
+    "@semantic-release/release-notes-generator": "^7.3.5",
+    "semantic-release-slack-bot": "^1.6.2"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=17"
+  }
+}
