@@ -16,6 +16,6 @@
     "url": "git+https://github.com/DAN-AKL/code-quality.git"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^9.1.1"
+    "@commitlint/config-conventional": "^11.0.0"
   }
 }
