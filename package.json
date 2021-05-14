@@ -10,7 +10,7 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
+    "husky": "6.0.0",
     "lerna": "3.22.1",
     "prettier": "^2.0.5",
     "semantic-release": "^17.1.1",
