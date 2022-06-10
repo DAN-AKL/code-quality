@@ -13,7 +13,7 @@
     "husky": "^4.2.5",
     "lerna": "3.22.1",
     "prettier": "^2.0.5",
-    "semantic-release": "^17.1.1",
+    "semantic-release": "^19.0.3",
     "semantic-release-monorepo": "^7.0.2"
   },
   "scripts": {
