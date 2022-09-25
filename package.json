@@ -11,7 +11,7 @@
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
-    "lerna": "3.22.1",
+    "lerna": "5.5.2",
     "prettier": "^2.0.5",
     "semantic-release": "^17.1.1",
     "semantic-release-monorepo": "^7.0.2"
