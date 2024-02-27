@@ -4,7 +4,7 @@
   "version": "0.0.0-development",
   "repository": "git@github.com:DAN-AKL/code-quality.git",
   "devDependencies": {
-    "@commitlint/cli": "^9.1.2",
+    "@commitlint/cli": "^19.0.0",
     "commitizen": "^4.1.2",
     "eslint": "^7.3.1",
     "eslint-config-airbnb-base": "^14.2.0",
